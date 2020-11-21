@@ -1,0 +1,425 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet" />
+    <style>
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+            line-height: 100%;
+        }
+
+        [style*="Raleway"] {
+            font-family: 'Raleway', arial, sans-serif !important;
+        }
+
+        img {
+            outline: none;
+            text-decoration: none;
+            border: none;
+            -ms-interpolation-mode: bicubic;
+            max-width: 100% !important;
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        .menu a {
+            color: #6c6c6c;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.28px;
+            text-decoration: none;
+        }
+
+        .menu td {
+            padding-left: 30px;
+        }
+
+        .header-td {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .features-td {
+            padding-top: 100px;
+            padding-bottom: 30px;
+        }
+
+        .features-td p {
+            color: #8c8c8c;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.28px;
+        }
+
+        .blockqoute-td {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .block-td p {
+            color: #8c8c8c;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.28px;
+        }
+
+        .block-table td {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .block-table {
+            border-top: 1px solid #e6e6e6;
+            border-left: 1px solid #e6e6e6;
+            border-right: 1px solid #e6e6e6;
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        .author {
+            padding-top: 20px;
+        }
+
+        .author h3 {
+            margin-top: 20px;
+            color: #686868;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.56px;
+            margin-bottom: 5px;
+        }
+
+        .author p {
+            color: #8c8c8c;
+            font-size: 13px;
+            font-weight: 300;
+            font-size: 14px;
+            letter-spacing: 0.52px;
+            margin: 0;
+        }
+
+        .footer-td {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .footer-menu-td {
+            padding-top: 60px;
+            padding-bottom: 35px;
+        }
+
+        .footer-menu-td a {
+            color: #bcc9dd;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.36px;
+            text-decoration: none;
+        }
+
+        .copyright-td {
+            color: #bcc9dd;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.31px;
+        }
+
+        .copyright-td a {
+            font-weight: 600;
+            text-decoration: none;
+            color: #bcc9dd;
+        }
+
+        @media (max-width: 870px) {
+            .table-850 {
+                width: 600px !important;
+            }
+
+            .table-600 {
+                width: 550px !important;
+            }
+
+            .block-table {
+                width: 200px !important;
+            }
+
+            .block-table p br {
+                display: none !important;
+            }
+
+            .features-td td {
+                display: block !important;
+                margin-bottom: 50px !important;
+            }
+        }
+
+        @media (max-width: 620px) {
+            .table-850 {
+                width: 400px !important;
+            }
+
+            .table-600 {
+                width: 320px !important;
+            }
+
+            .block-td {
+                display: block !important;
+                margin-bottom: 50px !important;
+                padding: 0 !important;
+            }
+
+            .blockqoute-td tr {
+                display: block !important;
+            }
+
+            .block-table {
+                width: 320px !important;
+                display: block !important;
+                margin: 0 auto !important;
+            }
+
+            .author {
+                width: 200px !important;
+            }
+
+            .logo {
+                display: block !important;
+                margin: 0 auto !important;
+                text-align: center !important;
+                width: 200px !important;
+                margin-bottom: 20px !important;
+            }
+
+            .logo img {
+                margin: 0 auto !important;
+            }
+
+            .menu {
+                display: block !important;
+                margin: 0 auto !important;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .table-850 {
+                width: 300px !important;
+            }
+
+            .table-600 {
+                width: 260px !important;
+            }
+
+            .block-table {
+                width: 260px !important;
+            }
+
+            .author {
+                width: 130px !important;
+            }
+
+            .blockqoute-td {
+                padding-top: 50px !important;
+                padding-bottom: 50px !important;
+            }
+
+            .footer-menu-td table {
+                width: 260px !important;
+            }
+            
+            .menu td {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое
+        письмо</div>
+    <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ec5483">
+        <tr>
+            <td>
+                <table class="main table-850" cellpadding="0" cellspacing="0" width="850" align="center">
+                    <tr>
+                        <td height="30" width="850"></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#ffffff" class="header-td">
+                            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                                <tr>
+                                    <td align="left" class="logo">
+                                        <img src="https://lh3.googleusercontent.com/5LK-wp1vueDRXPwwEhln0VSWrna02dHbnYZyxuG7lZ4gvjWo0bs6QYiiHYcaXDCJnynVbVkTIK-cnltk6n4UZHBJos5R_WWV9FsULL5RiAONrVfFp7xJoOr6xUPHaqDaK40lLb3fT4KL_IkOD5MXhcRe3hiSS5Nz0uB5wB_3gJNnxMO4nnVjsBhWo6mn2EpsO36gK0CGwlAUCSrA7YLzYZDOoHDxxHHMelwqRk9v6sNILjoTj0f5xXGsI9Dh9MHNbv1pesaEJn8paFgCjmVapqzoq1SQwlIHTaVs6ywv4y61IJvs0sQvqw71iJgZisNQyDe83mmAUOO_jI2HjfKiMdcB4-Z7LsI-oAd0UKDDP2aTGQFqIBfoCca_taIEXi6jFQzUzltLevwA-GbE0R9kHX8Q7SAZ_Kv9cPddsdJ0Fg4QfGXcx3T3rrnI2lyFabuwpcRBsrORbtlRcAU7sHeGjyWd7HuF5vZ6CbYyzwK0eiYh-fYsYHZ-SBK_NduMc0FU67KxD13mJFg8SyReyLMji93-xb2KlG6ApuwNNBNd5gGEKcjVqAhtS5rVQ9dWa_oOLnJGPFg3Tl56hhJlOd8pMn2yT1jmvMXhnjXbgPKsaKi8aaC36u2uXK4PiZ69_6MmDCvwNhHPeIVQXkCGUN_sw6fnpFq7tUYE1wZkscdR--mCRVdqKzZiraWEVDr7Nw=w66-h22-no?authuser=0" alt="logo" />
+                                    </td>
+                                    <td align="right" class="menu">
+                                        <table cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Team</a></td>
+                                                <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Features</a></td>
+                                                <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Pricing</a></td>
+                                                <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Contact</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="banner-td">
+                            <a href="#">
+                                <img src="https://lh3.googleusercontent.com/baT15VEF2Ihm6DqHXTRA-VE-GwuVxIgvGqLKcL5h7BcHnmsBjxT0w6XDYunAjY1NMlPpp-PeD6Nyw6qZCKeyGS76x7H_lsYTcFWgsuAv8DOw3yqwXME-N7kNU6bW3oJOCgCr9rtjP9d8z-Y0xVvWHiSJlfItNGIGHywLMXMlIJ27_MLk1c-PQcPycuXFBedyai5vGjPZl2iUypQyPuBCF4-tqUGKWXZPZn42BiuOJq98DZuWLRbs0PiPmAGuqriCX4hXgE5T5hy5vRTijNKV_DZOVi5ehdS45UthF1f4DEurlMimx1x8fdE8YooN8xzsf1kakwfUsF_sAEGSet9pq81WTlq437nT61Mfo0caohUGcfSkbmnHYy7BvqIJVHiaYdopo9eH2YfDdLotaexA1q12Jq7YX7Sv_MW4pxc49gWDJtg3M9JcLr7hZQ2vk-Bbd4rvoHYh810iAjLKX3kPHBgo4MKxX7GBB2ZPK-GXaPHatczbsCKZtX6GxJ8CBSJmB5iJUr111tkgb7Ke97og88ezO2lZdtcbrMRZmFeqjJTXgvBy9RMXqJOg_TQ3n_O0IeJjxvGSZKNbhJet-ZAddBbWiwSoai1EGAr7oTvJjw_88uvf5cqAO-mBkF32W0q60ApINMm0G9SknrjRi8JEZZ1hEpj9qWns_GlqPAp2DHFzAKGuSyTFBpxGqyb4LA=w850-h450-no?authuser=0" alt="banner" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="features-td" bgcolor="#ffffff">
+                            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                                <tr>
+                                    <td align="center">
+                                        <img src="https://lh3.googleusercontent.com/caPs31Ya65mWu580yBfssCdh4IEtdW4obRob24ukcYRlbRXBfd4MJ0rtidwixY1KgYWfXgRy5iWWCBOXILiqHFbUj8fn428s9hpNcO0fO2xXnvLo_pj59gBWXpgB9NTcIiyyudi7nF2LzHP5e6NksTkEWfaBplY4yF-OKiHfH99xC9Y4zMBuCS5MbC5JpqZpLCtTuD67kWB8uYX6pLQES6f6eDZMG5gq1eKjAljPfJ-lZy_ulnmF-xOUd-kSqruDxSLkYCcvjqV4wqQY8KI_APEd7fBPOmgbC7GYhcVzkraQXpgWkVxD579L14GmLk3FU7kCbdq8B7oS_8ilyCC-ZX2OoWOxCwiKE-HErJOD5NzAsxpS2SwgbsYg_kzSE17XX2j2tyrDO3lOb6iZZtDWN86pClEt2vVXO4gATdBMOq47_AdSocg4YGaXAzY5r9aGA4bjNtlq6qhXlI0W8UxAo7wmRLGbKbigYV_hEuLsP3QPQ_05AtSyg6MgLRWqaEXMOrN0y0cuTIJPUOsIJkCaj5WtOskHpXi36CfzQMwJUfuNg1s-Dx-Vjc2MpQewIKiIb2eX0908fxDlQGrpyWBGaOJCUveY9U2tLS7w0MNw_CLpGUtLu79uBQ38HvJvNAU2EV-vRVF7wVeSC0B_OBep1nLH6OmCpFkRRvkTWjuOWuKQbJSnO5maZj1ol-oM_g=w39-h46-no?authuser=0" alt="return" />
+                                        <p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+                                            phoncus ut, imperdiet vel <br /> venenatis vitae justo ullam <br /> dictum felis eu pede
+                                            mollis <br /> pretium massa.
+                                        </p>
+                                        <a href="#"><img src="https://lh3.googleusercontent.com/JhuES2P9WouwSz-xdrPm4_a05bRZR_vJXBM7RYCqy54khGnSudYymkg48lTgzg9TX6MDEN3M5FHwaPP8ZhlBdp6J6JfmdeA9uq1W2g8QUuAzorBPxmmJsJfizXxCXK85Pri9S6fGgCJ_mxBF4lSNm30mut1W2sVAc8qRYgWmxraiv0SInzjgoqcKqQiTtIv-T4ecjqDJem7LRjMS0wu_hlo46LFDSV7HPPE1rkZ6zhyDd1gbDqdto1lpxJw-UCNghZNyPWAEnzXxBNsXeM00ogIPGjdAA9TI8ZCsOkb70AItjubQZ9LNG70VwVEc8l4eGAKpQpVUzqadjrsRWy3J4wYdJPF9gIV1CkvYK3vtEUQv4DpEDlxwQIxJ2vflSMDy6HmxSSI4xorSFuyPxigm5yDG9nwDauFzUiYxRbbIzvPa-mMtADrmaPqZlVc9U-hpSCL3C6uoGuZyxNNuDPIYgTaZ-g3tI_Abt_fIHzyceJ-ERbxrWiVzkh1nEB3apmduT7jP1ixEFqqxmbTqiYEApYT94e9kGxo8Z8q-dMMdk-zLPF5pWWuS1bdX3MwjePCaoQhS2pGfmkD3u4HPgio6TwJYIPaflBigo9KhsKLlxluNfeCWMkN14Zzxom5iSqXQO1xUr4awpuQvSVNCRmJDu0L9P_pGf4mzpkwFVle7vCyMBXlwL6h8JqRde670Hg=w97-h9-no?authuser=0"
+                                                alt="read-more"></a>
+                                    </td>
+                                    <td align="center">
+                                        <img src="https://lh3.googleusercontent.com/iLgYJTdvrYmHQHoi3axYWxWRreEzvcIrOw8ez_B_WuvxNqaQbwX-4fNRUNBBD4ZGJUu0wReL5WngpiYyWBtlszRhSwr3cj_pBWAKNXK-eUDkEWVnbZaVvLzNlzLyHeSmzrygyUOIbNcgIt6xO1lRO27ptwecw98Jfl1N8V83OuKbWputq8HcAymZz4PK_dP28GnSSX5thIlUKGDWQ5j3zY6RFTNmB2ednvGD9sAsxuFXGKhPEPCVfgLcMcuy3rr6eI_-Dw5PLNTj1SHODN1B49JVoyUbSuuqcmbyHb3ENpJYLVHGkhaqY0pnj5a7uUw9gy7nqG8nzf5S_7dzNdoUa_2X2bX3tx0zd09-AzQaREL_PGmFdVJG66rE2Kli7iOsAFbc9zBD2eht0If3_5Xo69JBnF1lQJ9UVdnn6fXmO7rDFJiM-BIKnDMsVHAJB8MORFZ-upcctmRQzkPCAE7l7msXalhQGr_qM6GnIlaSvBAQ_a4n1VyZhV4EAUUpSG2AS18r08E0K5snKYK6rYSErdd0g_gm8XtQB42kBB1ors-6u3WVf9YYiWGvRO4JnzqEgwTy7Fd6_8FWfAx9HP0RHUsILkP8PPhMS0RDzjDa1lxehWBDj9osVDIrFamK212RxU0woi6D8hvabtiHHnM_-A3CF3fa_dywNk8Nouum74dP3iVNyuHrFGCC1T-nvQ=w46-h51-no?authuser=0"
+                                            alt="stopwatch" />
+                                        <p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+                                            phoncus ut, imperdiet vel <br /> venenatis vitae justo ullam <br /> dictum
+                                            felis eu pede
+                                            mollis <br /> pretium massa.
+                                        </p>
+                                        <a href="#"><img src="https://lh3.googleusercontent.com/JhuES2P9WouwSz-xdrPm4_a05bRZR_vJXBM7RYCqy54khGnSudYymkg48lTgzg9TX6MDEN3M5FHwaPP8ZhlBdp6J6JfmdeA9uq1W2g8QUuAzorBPxmmJsJfizXxCXK85Pri9S6fGgCJ_mxBF4lSNm30mut1W2sVAc8qRYgWmxraiv0SInzjgoqcKqQiTtIv-T4ecjqDJem7LRjMS0wu_hlo46LFDSV7HPPE1rkZ6zhyDd1gbDqdto1lpxJw-UCNghZNyPWAEnzXxBNsXeM00ogIPGjdAA9TI8ZCsOkb70AItjubQZ9LNG70VwVEc8l4eGAKpQpVUzqadjrsRWy3J4wYdJPF9gIV1CkvYK3vtEUQv4DpEDlxwQIxJ2vflSMDy6HmxSSI4xorSFuyPxigm5yDG9nwDauFzUiYxRbbIzvPa-mMtADrmaPqZlVc9U-hpSCL3C6uoGuZyxNNuDPIYgTaZ-g3tI_Abt_fIHzyceJ-ERbxrWiVzkh1nEB3apmduT7jP1ixEFqqxmbTqiYEApYT94e9kGxo8Z8q-dMMdk-zLPF5pWWuS1bdX3MwjePCaoQhS2pGfmkD3u4HPgio6TwJYIPaflBigo9KhsKLlxluNfeCWMkN14Zzxom5iSqXQO1xUr4awpuQvSVNCRmJDu0L9P_pGf4mzpkwFVle7vCyMBXlwL6h8JqRde670Hg=w97-h9-no?authuser=0"
+                                                alt="read-more"></a>
+                                    </td>
+                                    <td align="center">
+                                        <img src="https://lh3.googleusercontent.com/pjCGfPRann7dlJ_oWO2ISozCbEAs_RRTVO_7tfxkhSht6z2EmfGGOglNxfbMHIFNEQuGCNoTpV6-soygI40eSDgvNzVFpofkk6Yf9lc9IPOWSrGE9U_dYHgGs5-QF2oqbrHlILzLRG5vedGCPzSCkK3-ezCdO2Bx-uJKVYWrirhmXWc10KX3gOEYC3w2El_Uiq6PnnPvD2YI1yZ6zwJmvNeslODwLzgpM8naAfHtEZvH1n8H8DG4wCDK6Cd3CsjiwwMy0Xux_JjZaEwnAmGURBVBwVz0iWuSUrWqexZztCXiOBVNifhr4-6f0PTtjRwggzWtuOUAtAjRpW1ogNUbqqlpiQNXj7XV1WVSk4Ql436JwIoXO2aEU_yjsgEjy29dnOVV94znSHDLcH4LfTvStD9_Q965bvoWTirhQrLT56dER2-iVnN1UxTU-lQ32ifPFZXieFqKlq9_2jEJTg0oxcuQW1dYX-nQa9K13qWiA5AKeDouKWKi2dPcGzVepVqugMtJRs8U6Dw8wjRO_8-wA2V9Cnm8DiH6c25FWNDp5H62oOJsIjohtqvtySzVJeKv2sCvSjd7cscCPy-m2OM0P_-ZBmEP_l3ouDcwLXtZ9Uz8tvxDX_-vTADk_PmYc3agMhRNEXZRCk_GeedvifszoWSJWN29Ndw3GLr1WbZ97oY8mkuqfZpYtAWweNm-Kg=w42-h51-no?authuser=0"
+                                            alt="reminders" />
+                                        <p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+                                            phoncus ut, imperdiet vel <br /> venenatis vitae justo ullam <br /> dictum
+                                            felis eu pede
+                                            mollis <br /> pretium massa.
+                                        </p>
+                                        <a href="#"><img src="https://lh3.googleusercontent.com/JhuES2P9WouwSz-xdrPm4_a05bRZR_vJXBM7RYCqy54khGnSudYymkg48lTgzg9TX6MDEN3M5FHwaPP8ZhlBdp6J6JfmdeA9uq1W2g8QUuAzorBPxmmJsJfizXxCXK85Pri9S6fGgCJ_mxBF4lSNm30mut1W2sVAc8qRYgWmxraiv0SInzjgoqcKqQiTtIv-T4ecjqDJem7LRjMS0wu_hlo46LFDSV7HPPE1rkZ6zhyDd1gbDqdto1lpxJw-UCNghZNyPWAEnzXxBNsXeM00ogIPGjdAA9TI8ZCsOkb70AItjubQZ9LNG70VwVEc8l4eGAKpQpVUzqadjrsRWy3J4wYdJPF9gIV1CkvYK3vtEUQv4DpEDlxwQIxJ2vflSMDy6HmxSSI4xorSFuyPxigm5yDG9nwDauFzUiYxRbbIzvPa-mMtADrmaPqZlVc9U-hpSCL3C6uoGuZyxNNuDPIYgTaZ-g3tI_Abt_fIHzyceJ-ERbxrWiVzkh1nEB3apmduT7jP1ixEFqqxmbTqiYEApYT94e9kGxo8Z8q-dMMdk-zLPF5pWWuS1bdX3MwjePCaoQhS2pGfmkD3u4HPgio6TwJYIPaflBigo9KhsKLlxluNfeCWMkN14Zzxom5iSqXQO1xUr4awpuQvSVNCRmJDu0L9P_pGf4mzpkwFVle7vCyMBXlwL6h8JqRde670Hg=w97-h9-no?authuser=0"
+                                                alt="read-more"></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="blockqoute-td" bgcolor="#ffffff">
+                            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                                <tr>
+                                    <td class="block-td" align="center" style="padding-right: 20px;">
+                                        <table cellpadding="0" cellspacing="0" class="block-table" align="center" width="280">
+                                            <tr>
+                                                <td align="center">
+                                                    <p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+                                                        Donec quam felis ultricies nec pel <br /> lentesque pretium quis
+                                                        sem massa <br /> quis
+                                                        enim. Donec pede justo fring <br /> illa vel aliquet nec
+                                                        vulputate eget <br /> magnis
+                                                        montes ligula eget.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="block-td" align="center" style="padding-left: 20px;">
+                                        <table cellpadding="0" cellspacing="0" class="block-table" align="center"
+                                            width="280">
+                                            <tr>
+                                                <td align="center">
+                                                    <p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+                                                        Donec quam felis ultricies nec pel <br /> lentesque pretium quis
+                                                        sem massa <br /> quis
+                                                        enim. Donec pede justo fring <br /> illa vel aliquet nec
+                                                        vulputate eget <br /> magnis
+                                                        montes ligula eget.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="author" align="center" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+                                        <img src="https://lh3.googleusercontent.com/4WZTQRXc6IFxoHJiASC5_UX3NRNEbUxZnj7bi5e1iJ9axMFNnFV8GcxGaVqNtA3b80_hzqjxICyGBNsvZc4McHJTI4r_Vhf-eQOyo_GscV-al_I0ID6WY3x9ceDzPMDYLNSssK3f7FcFjve9mOkocBLlui-j28HWO3lp_rHWCq22wNzo9NdvT8xW3AW9Y_RUQUbFPYKYlqVRIbuxxVnL76AaBQDqwJhST0CQKn2gf5vEoL64XaRgRW84lBmT-T9Lpe9m6yx1k2IUgsJcC2XqjzAtuUc3Mz7Z0kLATBMu01sktrXeRlIcka2liZ0aAqahX78HirF_VrxP5iDRJrVg2Ez9g7xt-axdi7scd-Xj0nUevMcZQD1cWrlkfn-mAN1wh-FqtesaALe50AAdmxji11bv3hAEeMM2rOFUONT5n4v2Y4mJCOtJqQ7b-ac8C7EVsWyW0GqFyNIqaLnEb_FCYUgak_EXaWy604Xv-CppV3c8ZTaR8iIqg_Ksdfg9YGyYLzMwrQUmNq82s_xaF3ZkXebuF2kza8nploFTf4r9MEW_G5QNUw0ZHXe3hSc1VKBuEmwEbn9p3uUDL_5OIRC_QrVp8ttpvkIJXNMKtMzTq6ITZiKoYyfIpflkqGvA_w2-0b7zy7TZ94gFVa2arxG57B-Sc_57Gh_TcWIbp5tl7v-DbLhHl7z_Xg7Tr1STzg=s64-no?authuser=0"
+                                            alt="author" />
+                                        <h3>Alexander Doe</h3>
+                                        <p>Senior UX Developer</p>
+                                    </td>
+                                    <td class="author" align="center"
+                                        style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
+                                        <img src="https://lh3.googleusercontent.com/dE0fAmq4ah1SnkSgPn8-A0LB0zIn_IvSSKyEoUrrKSuQPGPPFoW328MziCL4lPi2WFI70t77l7sV3TGmRr6vSCWKhNsLA-Y4UgMTMTcLqjN4JNoOtgzQ6CJ54PINwkjr4zdd72foG0c2QycFS7f-eVMkUmoS6pI_L44I-9YVHPTYjg0eRrCgMr1SkHpxlSQFjTG94ypOFI9n2lqDbR6_oorIrDUBLqk5hTyKCSh6fgOsoQBZxyIeOLTiTynE4tfrTrRqk0Yl9v9ahZylg6ExCZb2Aggyz8eN0KO9gWcqb8PtjMCr4didtPlcZgI0pM_eMXEeUDmFLAN0FZSXljdeZIWF-6PySlekWeTPU9Kc51KXRofUvqOjlzlpjBosQxU2Wu2OJDTq2w2sC0MXfb7h19l_zmOHBAZTUH_s1PlHx1LtbxlOtSmIHc-Qmn-EuWJaEQiwyliuatUk1jHDLGQGnG7ecoeecfk75RXOWpRiImqleP3vT3YHdwfnzTf-3_40LDjxhNcXoAJPNVrMn-XJJ5Kq4XeCR4T9fLQhxRDx1HodOLzFjQIGlbw52uUYNIMXoLYPyGHqqMHkI5eq6fSX_Btukii-p2mX7BIwEa0RVdrpLDD84igDqxlpsvn90eFxGbD4t16gdbiynWTQfeA5uFEOqkjOmNs_pnC5B-DLZq7J8unOMA-sRwQjpLbrzQ=s64-no?authuser=0"
+                                            alt="author" />
+                                        <h3>Laurie Doe</h3>
+                                        <p>Marketing Expert</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="footer-td" bgcolor="#38404b">
+                            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                                <tr>
+                                    <td class="footer-logo" align="center">
+                                        <a href="#">
+                                            <img src="https://lh3.googleusercontent.com/8mHeKrwm1-1m0_JgKm5ZmMTFOgKL4pr4JWnJdWvEUUB4s7VZs1gEMYZ5fSUf36F7b4xa2peX1M_ocwjdbA1ygfZw9NravV7SchPeuVW1kf5gQnjmRXBRyyeDfyrW-1ODLqWlXlFVz_Clu4esCzwjLKp-tlb_BuFlQIIut3YCBKC1ZGdbwQ14VoJ2meiXH2F413JPUwd7QbBEbiQMX8-nOuMQIKFchaZnWkQKlySMkqVA97peEoIlUq6K2rJZeMADUnE2KzxPqaJ6QR1LWRs_Q6jIEo_Q3_5FzWA6HkCfTJVnojWUFEEN8QUnMB5GtC7os1vInSCUs8HACWMuO53cIEnYZCYw_DlGYLFs0byYF5rXskqsrZue8K-zaIOlUNRewlHcfcdU3aYP-KOesx3L0bc9V-eDeftS6B-xbnj8Zn3e0QiTFOFVq2-zys3IWULkPUKlCuVMzodLDvdhrrvuYjAUNkfvklvBgePL8ceOedOLvhpu1drnWHnWD6m__TU23Z9nlsbpIbewsWy9ojXRU-mi2sMEU_hq43GLZeUFXQg3ZXz4ROzEerPR3cozKc1fqgZ7Bt9scbEEFLuE9e13HiW-3AO2au4DFGbkJsecrwYbHaunhllOWdHZ1vkX2vvFxuUia6H8wrZhYTuNmOZgikuYsHNLAIdhIjzjUhwUelh-A_1xZjNmsZdnr7Z_Eg=w66-h22-no?authuser=0" />
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="footer-menu-td" align="center">
+                                        <table cellpadding="0" cellspacing="0" width="350" align="center">
+                                            <tr>
+                                                <td align="center"><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">About Us</a></td>
+                                                <td align="center"><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Team</a></td>
+                                                <td align="center"><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">News</a></td>
+                                                <td align="center"><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Contact Us</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="copyright-td" align="center" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">© 2014 pixelhint.com. All Rights Reserved</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="30" width="850"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
